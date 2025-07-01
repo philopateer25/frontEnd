@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for = "name">fullname:</label><br>
+        <input type = "text" id = "name" name = "name" placeholder="yourname" required><br><br>
+
+        <label for = "email">email address:</label><br>
+        <input type = "text" id = "email" name = "email" placeholder="name@gmail.com"><br><br>
+
+        <label for = "phone">phone number:</label><br>
+        <input type = "number" id = "phone" name = "phone" placeholder="012012345662"><br><br>
+        
+        <h3>Preferred contact method</h3>
+
+        <input type = "radio" id = "phone" name = "contact">
+        <label for = "phone">phone</label><br>
+        
+        <input type = "radio" id = "email" name = "contact">
+        <label for = "email">email</label><br>
+
+        <h3>services invested in:</h3>
+
+        <input type = "checkbox" id = "email" name = "contact">
+        <label for = "email">web design</label><br>
+
+        <input type = "checkbox" id = "email" name = "contact">
+        <label for = "email">seo</label><br>
+
+        <input type = "checkbox" id = "email" name = "contact">
+        <label for = "email">hosting</label><br>
+
+        <h3>city:</h3>
+
+        <select>
+            <option value="cairo">cairo</option>
+            <option value="alexandreia" selected>alex</option>
+            <option value="giza">giza</option>
+            <option value="fayoum">fayoum</option>
+        </select>
+
+       <h3>your message:</h3>
+
+        <textarea name="message" id="message" cols="30" rows="10"></textarea><br><br>
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>

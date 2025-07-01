@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+#roc {
+  position: relative;
+  animation: launching 2s ease-out forwards;
+}
+
+
+#roc img {
+  width: 100px;
+  height: auto;
+}
+
+
+@keyframes launching {
+  0% {
+    left: 0;
+    opacity: 1;
+  }
+  100% {
+    left: 100vw;
+    opacity: 0;
+    visibility: hidden;
+}

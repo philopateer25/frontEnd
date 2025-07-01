@@ -1,0 +1,19 @@
+.does{
+    background-color: grey;
+    padding: 5px;
+    border:2px solid black;
+    border-radius: 5px;
+    margin-inline-end: 10px;
+}
+
+.box{
+    border: 1px solid black;
+    padding: 10px;
+    margin:auto
+    
+}
+
+div{
+width: 350px;
+}
+

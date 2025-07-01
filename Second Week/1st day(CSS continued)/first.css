@@ -1,0 +1,36 @@
+.image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.image img {
+    width: 475px;
+    height: auto;
+    margin: 5px;
+    
+}
+
+.image img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .image  {
+       flex-direction: column;
+    }
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .image  {
+        flex-direction: row;
+    }
+    
+}
+    
+}
+
